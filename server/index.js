@@ -13,7 +13,6 @@ import Product from "./models/Product.js";
 import Transaction from "./models/Transaction.js";
 import { kpis, products, transactions } from "./data/data.js";
 
-/* CONFIGURATIONS */
 dotenv.config();
 const app = express();
 app.use(express.json());
